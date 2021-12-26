@@ -9,15 +9,17 @@ jobs:
     runs-on: ubuntu-latest   
       
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2     
       
       - name: Setup .NET 3.x
         uses: actions/setup-dotnet@v1
         with:        
           dotnet-version: '3.x'     
       
-      - name: Install dependencies
+      - name: Restore dependencies
         run: dotnet restore
-        
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
+        working-directory: ./PatternsStudy
+
+      - name: Build	
+        run: dotnet build --no-restore
+        working-directory: ./PatternsStudy
