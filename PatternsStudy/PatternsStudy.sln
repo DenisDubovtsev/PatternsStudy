@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternsStudy", "PatternsStudy\PatternsStudy.csproj", "{FBFAA6E0-816E-4CEF-80F0-1A135A0CF422}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{E56E62CC-7B32-4D77-B650-59D29AEFCA2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{47B888CE-5167-4709-AD42-A96DE6C380D9}"
 EndProject
 Global
