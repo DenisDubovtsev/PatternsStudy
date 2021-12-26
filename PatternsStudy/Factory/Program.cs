@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Factory.Client;
 
-namespace PatternsStudy
-{
+namespace Factory
+{    
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new LogisticCompany().StartWork();
         }
     }
 }
